@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    width:100%;
+    background-color: rgb(32, 141, 153);
+}
+
+.colon{
+    width: 50%;
+}
+
+.video{
+  height:50vh;
+  margin: 20px;
+  color: aliceblue;
+  font-size: 14px;
+}

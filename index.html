@@ -146,7 +146,7 @@
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item fade-in" onclick="openModal('modal1')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1760264377/pplx_project_search_images/7600497f2f7ec370e6e383d8babc5d20720d28b3.png" alt="Питбайк на фоне гор">
+                    <img src="images/qwqw.jpg" alt="Питбайк на фоне гор">
                     <div class="gallery-overlay">
                         <h4>Поездка в горы Кавказа</h4>
                         <p>Кавказские горы • Сентябрь 2024</p>
@@ -154,7 +154,7 @@
                 </div>
 
                 <div class="gallery-item fade-in" onclick="openModal('modal2')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1760264378/pplx_project_search_images/a6f66eacfd187929cfc66fd2ab5f61332a284b10.png" alt="Прыжок на питбайке">
+                    <img src="images/qwqw.jpg" alt="Прыжок на питбайке">
                     <div class="gallery-overlay">
                         <h4>Экстрим в лесу</h4>
                         <p>Подмосковье • Август 2024</p>
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="gallery-item fade-in" onclick="openModal('modal3')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1760264377/pplx_project_search_images/38739efbed0ff980510e478d38c2ed126370cce1.png" alt="Гонка на питбайке">
+                    <img src="images/qwqw.jpg" alt="Гонка на питбайке">
                     <div class="gallery-overlay">
                         <h4>Кроссовая трасса</h4>
                         <p>Мотопарк • Июль 2024</p>
@@ -170,7 +170,7 @@
                 </div>
 
                 <div class="gallery-item fade-in" onclick="openModal('modal4')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1759079770/pplx_project_search_images/7b5d1dc4461cc94bb424f201f3bc003104bb1ebd.png" alt="Питбайк в грязи">
+                    <img src="images/qwqw.jpg" alt="Питбайк в грязи">
                     <div class="gallery-overlay">
                         <h4>Покорение бездорожья</h4>
                         <p>Тульская область • Июнь 2024</p>
@@ -178,7 +178,7 @@
                 </div>
 
                 <div class="gallery-item fade-in" onclick="openModal('modal5')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1760264377/pplx_project_search_images/7600497f2f7ec370e6e383d8babc5d20720d28b3.png" alt="Мотоцикл на закате">
+                    <img src="images/qwqw.jpg" alt="Мотоцикл на закате">
                     <div class="gallery-overlay">
                         <h4>Закат на трассе</h4>
                         <p>Московская область • Май 2024</p>
@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="gallery-item fade-in" onclick="openModal('modal6')">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1760264378/pplx_project_search_images/a6f66eacfd187929cfc66fd2ab5f61332a284b10.png" alt="Начало сезона">
+                    <img src="images/qwqw.jpg" alt="Начало сезона">
                     <div class="gallery-overlay">
                         <h4>Первая поездка</h4>
                         <p>Парк Сокольники • Апрель 2024</p>
@@ -302,6 +302,14 @@
     </div>
 
     <script>
+
+        const d1 = document.getElementById('d1');
+        d1.addEventListener('click', () => {
+        d1.classList.remove('animate');
+        void d1.offsetWidth; 
+        d1.classList.add('animate');
+        });
+
         // Header scroll effect
         window.addEventListener('scroll', () => {
             const header = document.getElementById('header');

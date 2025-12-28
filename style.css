@@ -758,17 +758,20 @@ video{
 
 
 
-#d1:hover{
+#d1.animate{
     animation: d2 5s 1;
 }
 
 
 @keyframes d2 {
     0%{
-        transform: translate(-100px, -100px);
+        transform: translate(100px, 100px);
+    }
+    50%{
+        transform: translate(500px, 500px);
     }
     100%{
-        transform: translate(1000px, 1000px);
+         transform: translate(0px, 0px);
     }
 }
 
